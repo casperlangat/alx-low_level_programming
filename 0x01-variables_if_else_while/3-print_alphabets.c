@@ -1,4 +1,4 @@
-#include <stdio.h
+#include <stdio.h>
 
 /**
  * main - prints alpha lowercase and uppercase
