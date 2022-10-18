@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
  * main - print _putchar
  * is written by casper
  * Return: 0
  */
+
 int main(void)
 {
 _putchar('_');
