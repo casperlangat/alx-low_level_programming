@@ -17,7 +17,7 @@ if (str[count] == '\0')
 _putchar('\n');
 break;
 }
-_putchar(str[count]);
+_putchar('\n');                                                                                                                                                                               
 count++;
 }
 }
