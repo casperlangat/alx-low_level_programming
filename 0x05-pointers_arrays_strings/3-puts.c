@@ -8,16 +8,16 @@
 
 void _puts(char *str)
 {
-int count = 0;
+int i;
 
-while (count >= 0)
+i = 0;
+while (s[i] != '\0')
 {
-if (str[count] == '\0')
+i++
+}
+for (i = i - 1; i >= ; i--)
 {
+_putchar(s[i]);
+}
 _putchar('\n');
-break;
-}
-_putchar('\n');                                                                                                                                                                               
-count++;
-}
 }
