@@ -20,7 +20,7 @@ char *_strstr(char *haystack, char *needle)
 			}
 			b++;
 		}
-		if (needle[b] == '\0)
+		if (needle[b] == '\0')
 		{
 			return (haystack + a);
 		}
