@@ -20,7 +20,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	for (i = 0; i < n; i++)
 	{
 		current = va_arg(args, char*);
-	}
+	
 		if (current != NULL)
 		{
 			printf("%s", current);
@@ -31,6 +31,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		{
 			Printf("%s", separator);
 		}
-		printf("\n");
-		va_end(args);
+	}
+	printf("\n");
+	va_end(args);
 }
