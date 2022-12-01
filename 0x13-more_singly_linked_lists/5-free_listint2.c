@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * free listint2 - freees a  linked list
+ * free_listint2 - freees a  linked list
  * @head: head of a list
  * Return: no return.
  */
